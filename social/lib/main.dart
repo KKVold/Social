@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social/constant.dart';
 
 import './Screens/login_screen.dart';
 
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+        colorScheme: const ColorScheme.light(secondary: kMainColor2),
         fontFamily: 'Golos',
         textTheme: const TextTheme(
             titleLarge: TextStyle(
